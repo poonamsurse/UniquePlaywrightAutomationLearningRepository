@@ -1,0 +1,157 @@
+{
+  "tests\\004_checkbox.spec.ts": {
+    "filename": "004_checkbox.spec.ts",
+    "path": "tests\\004_checkbox.spec.ts",
+    "version": "1.2",
+    "contextFile": "687ff14f-context.json",
+    "chunks": {
+      "19b075": {
+        "user": "Poonam Surse",
+        "model": "gpt-4.1",
+        "timestamp": 1790774447,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.4.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "c5584001"
+        },
+        "hash": "15b00ee9",
+        "messageId": "system_ad5d84d0-bcd1-11f1-91c5-4fce3672ec17",
+        "codeBlockId": "system_ad5d84d0-bcd1-11f1-91c5-4fce3672ec17-Codeblock-1",
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Poonam Surse\n- **model**: gpt-4.1\n- **timestamp**: 9/30/2026, 6:50:47 PM\n- **source**: chat\n- **type**: copyCode\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "19b075",
+        "hash": "9b22d4ef",
+        "encoded": "import%20%7B%20test,%20expect%20%7D%20from%20'@playwright/test';",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "19b075",
+        "hash": "8b2883a7",
+        "encoded": "test.describe('Favorite%20Drink%20Checkboxes%20Validation',%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "19b075",
+        "hash": "136a1b62",
+        "encoded": "test.beforeEach(async%20(%7B%20page%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "19b075",
+        "hash": "0c5141e6",
+        "encoded": "await%20page.goto('https://practice-automation.com/form-fields/');",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "19b075",
+        "hash": "622878bd",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "19b075",
+        "hash": "04b45d31",
+        "encoded": "for%20(const%20drink%20of%20drinks)%20%7B",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "19b075",
+        "hash": "c12c0edd",
+        "encoded": "const%20checkbox%20=%20page.getByLabel(drink);",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "19b075",
+        "hash": "d7f455c2",
+        "encoded": "await%20expect(checkbox).toBeVisible();",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "19b075",
+        "hash": "3c8b6c2a",
+        "encoded": "await%20expect(checkbox).not.toBeChecked();",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "19b075",
+        "hash": "f248bd81",
+        "encoded": "//%20Check%20the%20box",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "19b075",
+        "hash": "30ab1729",
+        "encoded": "await%20checkbox.check();",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "19b075",
+        "hash": "99f485a5",
+        "encoded": "await%20expect(checkbox).toBeChecked();",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "19b075",
+        "hash": "a5dc7a0b",
+        "encoded": "//%20Uncheck%20the%20box",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "19b075",
+        "hash": "5fb0621e",
+        "encoded": "await%20checkbox.uncheck();",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "19b075",
+        "hash": "e161682a",
+        "encoded": "await%20expect(checkbox).not.toBeChecked();",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "19b075",
+        "hash": "7b3531ab",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "19b075",
+        "hash": "a16f8640",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "19b075",
+        "hash": "9c12cf4c",
+        "encoded": "for%20(const%20drink%20of%20drinks)%20%7B",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "19b075",
+        "hash": "8e8ca0f5",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "19b075",
+        "hash": "6c3f165a",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "19b075",
+        "hash": "d7c2ec52",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      }
+    },
+    "_prevLineCount": 50
+  }
+}

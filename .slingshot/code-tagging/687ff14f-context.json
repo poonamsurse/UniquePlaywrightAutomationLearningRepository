@@ -1,0 +1,15 @@
+{
+  "filename": "004_checkbox.spec.ts",
+  "path": "tests\\004_checkbox.spec.ts",
+  "version": "1.1",
+  "files": {},
+  "promptMessage": {
+    "c5584001": {
+      "value": "https://practice-automation.com/form-fields/\nWhat is your favorite drink? check boxes validations"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

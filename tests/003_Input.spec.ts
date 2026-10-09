@@ -40,7 +40,7 @@ await watercheckbox.check;
 const allcb=['Water',  'Milk','Coffee','Wine', 'Ctrl-Alt-Delight'];
 
 //with map
-/*
+
 const allcheckbox=allcb.map((day)=>
 {
 return page.getByLabel(day)
@@ -50,7 +50,7 @@ for(const checkbox of allcheckbox)
 {
 await checkbox.check;
 await expect(checkbox).toBeChecked;
-}*/
+}
 
 //without map
 for(const day of allcb)

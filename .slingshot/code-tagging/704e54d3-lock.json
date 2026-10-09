@@ -1,0 +1,37 @@
+{
+  "tests\\003_Input.spec.ts": {
+    "filename": "003_Input.spec.ts",
+    "path": "tests\\003_Input.spec.ts",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "e39663": {
+        "user": "Poonam Surse",
+        "model": "gpt-4.1",
+        "timestamp": 1790762942,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.4.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "6169f255"
+        },
+        "hash": "84b55f94",
+        "messageId": "system_d36ad620-bcb6-11f1-91c5-4fce3672ec17",
+        "codeBlockId": "system_d36ad620-bcb6-11f1-91c5-4fce3672ec17-Codeblock-1",
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Poonam Surse\n- **model**: gpt-4.1\n- **timestamp**: 9/30/2026, 3:39:02 PM\n- **source**: chat\n- **type**: copyCode\n"
+      }
+    },
+    "lines": {
+      "60": {
+        "chunkId": "e39663",
+        "hash": "42f7c135",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      }
+    },
+    "_prevLineCount": 64
+  }
+}

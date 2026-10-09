@@ -1,0 +1,21 @@
+{
+  "filename": "003_Input.spec.ts",
+  "path": "tests\\003_Input.spec.ts",
+  "version": "1.1",
+  "files": {},
+  "promptMessage": {
+    "f37d3727": {
+      "value": "I want a zip file of this frame work structure."
+    },
+    "6169f255": {
+      "value": "how to add constant wait in typescript"
+    },
+    "0cd2a202": {
+      "value": "can you give me playerite code for check box validation use different ways to validate checkbox.\nsample application url:https://practice-automation.com/form-fields/"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}
